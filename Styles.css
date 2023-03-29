@@ -1,16 +1,51 @@
-/* default styles for all screen sizes */
-body {
-  font-size: 16px;
-  /* other styles... */
+/* default styles for desktop devices */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  /* other styles for container */
+}
+
+.video {
+  width: 640px;
+  height: 360px;
+  /* other styles for video */
+}
+
+.widget {
+  width: 300px;
+  height: 250px;
+  /* other styles for widget */
+}
+
+.footer {
+  /* styles for footer */
 }
 
 /* media query for mobile devices */
-@media only screen and (max-width: 768px) {
-  body {
-    font-size: 14px;
-    /* other styles... */
+@media only screen and (max-width: 600px) {
+  .container {
+    max-width: 100%;
+    padding: 10px;
+    /* other styles for container on mobile */
+  }
+
+  .video {
+    width: 100%;
+    height: auto;
+    /* other styles for video on mobile */
+  }
+
+  .widget {
+    width: 100%;
+    height: auto;
+    /* other styles for widget on mobile */
+  }
+
+  .footer {
+    /* styles for footer on mobile */
   }
 }
+
 
 body {
   overflow-x: hidden;
