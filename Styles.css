@@ -1,3 +1,9 @@
+@media only screen and (max-width: 600px) {
+  html, body {
+    overflow-x: hidden;
+  }
+}
+
 /* default styles for desktop devices */
 .container {
   max-width: 960px;
@@ -45,12 +51,6 @@
     /* styles for footer on mobile */
   }
 }
-
-
-body {
-  overflow-x: hidden;
-}
-
 
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
