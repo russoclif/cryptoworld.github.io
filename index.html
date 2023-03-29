@@ -192,16 +192,16 @@
   align-items: center;
   background-color: #fff;
   padding: 10px 20px;
-  border: 1px solid #ddd; /* Reduce the border width */
+  border: 1px solid #ddd;
   border-radius: 8px;
-  margin-top: 20px;
-  position: fixed; /* Add position fixed */
-  top: 0; /* Set top value to 0 */
-  width: 100%; /* Set width to 100% to take up entire screen */
+  margin-top: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .nav-item:not(:last-child) {
-  margin-right: 15px;
+  margin-right: 10px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -225,11 +225,9 @@
   font-family: 'Bebas Neue', sans-serif;
   margin-left: 0;
   z-index: 9999;
-  letter-spacing: -0.5px; /* Reduce the letter-spacing */
+  letter-spacing: -0.5px;
+  line-height: 1; /* Reduce the line-height to make text closer together */
 }
-
-
-
 
 .dropdown-menu {
   position: absolute;
