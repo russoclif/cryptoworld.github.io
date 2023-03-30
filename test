@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Website Title</title>
+  <link rel="stylesheet" type="text/css" href="Nav.css">
+</head>
+<body>
+  <nav class="menu">
+    <ol>
+      <li class="menu-item">
+        <a href="#0">Buy Crypto</a>
+        <ol class="sub-menu">
+          <li class="menu-item"><a href="#0">Bank Deposits</a></li>
+          <li class="menu-item"><a href="#0">Credit Card/Debit Card</a></li>
+          <li class="menu-item"><a href="#0">Cash Balance</a></li>
+          <li class="menu-item"><a href="#0">P2P Trading</a></li>
+        </ol>
+      </li>
+      <li class="menu-item">
+        <a href="#0">Trade</a>
+        <ol class="sub-menu">
+          <li class="menu-item"><a href="#0">USDT Futures</a></li>
+          <li class="menu-item"><a href="#0">Coin Futures</a></li>
+        </ol>
+      </li>
+      <li class="menu-item">
+        <a href="#0">Futures</a>
+        <ol class="sub-menu">
+          <li class="menu-item"><a href="#0">USDT Futures</a></li>
+          <li class="menu-item"><a href="#0">Coin Futures</a></li>
+          <li class="menu-item"><a href="#0">Futures Trading Bot</a></li>
+        </ol>
+      </li>
+      <li class="menu-item">
+        <a href="#0">Rewards</a>
+        <ol class="sub-menu">
+          <li class="menu-item"><a href="#0">Free Daily AirDrops</a></li>
+          <li class="menu-item"><a href="#0">Challenges</a></li>
+          <li class="menu-item"><a href="#0">Loyalty Rewards</a></li>
+        </ol>
+      </li>
+      <li class="menu-item"><a href="#0">NFT</a></li>
+      <li class="menu-item"><a href="#0">List a Crypto</a></li>
+      <li class="menu-item"><a href="#0">Finance</a></li>
+      <li class="menu-item"><a href="#0">Wallet</a></li>
+      <li class="menu-item"><a href="#0">Deposit</a></li>
+      <li class="menu-item"><a href="#0">Withdraw</a></li>
+    </ol>
+  </nav>
+</body>
+</html>
